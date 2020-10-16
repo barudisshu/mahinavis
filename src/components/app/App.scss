@@ -1,0 +1,11 @@
+@import './../../assets/styles/variables.scss';
+@import './../../assets/styles/common.scss';
+
+.app-container {
+  flex-grow: 1;
+  height: 100vh;
+
+  > .MuiGrid-container {
+    min-height: 100%;
+  }
+}
